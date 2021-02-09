@@ -1,0 +1,88 @@
+.mainpage {
+	background-color: #F0F2F5;
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 120px; 
+	margin-right: 100px; 
+	margin-left: 100px;
+}
+
+.mainpage .Title{
+	width: 364px;
+	font-family: SFProDisplay-Regular,Helvetica, Arial;
+	color: #000000;
+	font-weight: lighter;
+}
+
+body {
+	background-color: #F0F2F5;
+}
+
+.register_form {
+	padding-top: 20px;
+	display: flex;
+	height: 350px;
+	width: 400px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	border-radius: 8px;
+
+}
+
+input {
+	margin: 5px;
+	width: 364px;
+	height: 48px;
+	border-radius: 5px;
+	border-color: #F0F2F5;
+	font-family: Arial;
+}
+
+button {
+	color: #ffffff;
+	background-color: #1877F2;
+	border-radius: 5px;
+	border-color: #1877F2;
+	width: 364px;
+	height: 48px;
+	margin-top: 10px;
+	font-family: Arial;
+	font-weight: bold
+
+}
+
+.register_form a{
+	margin-top: 10px;
+	text-decoration-line: none;
+	color: #1877F2;
+	font-family: Arial;
+}
+
+.create_acc{
+	color: #ffffff;
+	background-color: #42B72A;
+	border-radius: 5px;
+	border-color: #42B72A;
+	width: 182px;
+	height: 50px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-family: Arial;
+	font-weight: bold
+
+}
+
+footer {
+	background-color: #ffffff;
+	display: flex;
+	margin-top: 200px;
+	height: 200px;
+	align-items: center;
+	font-family: Arial;
+	color: grey;
+	flex-direction: column;
+}
