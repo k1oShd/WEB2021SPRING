@@ -1,0 +1,74 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+}
+
+header {
+	background-color: orange;
+	width: 600px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 5px;
+	border: 3px solid #DB8E00;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-family: Courier, monospace;
+}
+
+.innerHeader {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.innerHeader input{
+	border-radius: 5px;
+}
+
+.innerHeader button {
+	font-family: Arial;
+	font-weight: bold;
+	width: 100px;
+	border-radius: 5px
+}
+
+
+.newNote {
+	background-color: grey;
+	width: 600px;
+	height: 60px;
+	border: 5px solid white;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: -5px; 
+}
+
+.newNote:hover{
+	background-color: #C4C4C4;
+	transition-duration: 0.5s;
+}
+
+input {
+	width: 60%;
+	height: 20px;
+	background-color: grey;
+	padding: 10px;
+}
+
+#notesStorage {
+	width: 600px;
+}
+
+
